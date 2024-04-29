@@ -1013,7 +1013,7 @@ function Neverlose_Main:Window(config)
         UserName.Text = 'OFF'
     end
     UserName.TextColor3 = Color3.fromRGB(255, 255, 255)
-    UserName.TextSize = 15.000
+    UserName.TextScaled = true
     
     TitleMain.Name = "TitleMain"
     TitleMain.Parent = LeftFrame
